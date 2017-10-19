@@ -98,3 +98,5 @@ DEFAULT_USER='david'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir dir_writable rbenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status root_indicator background_jobs history time)
 POWERLEVEL9K_STATUS_VERBOSE=false
+
+eval $(thefuck --alias)
