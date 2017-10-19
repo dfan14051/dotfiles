@@ -1,5 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+# added by Anaconda2 4.4.0 installer
+export PATH="/Users/david/anaconda2/bin:$PATH"
+
+# added by Anaconda3 4.4.0 installer
+export PATH="/Users/david/anaconda3/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/david/.oh-my-zsh
