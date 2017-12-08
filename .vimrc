@@ -9,3 +9,4 @@ set expandtab
 syntax on
 set hidden
 set backspace=indent,eol,start
+set number
