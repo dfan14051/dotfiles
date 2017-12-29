@@ -1,7 +1,5 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-# added by Anaconda2 4.4.0 installer
-export PATH="/Users/david/anaconda2/bin:$PATH"
 
 # added by Anaconda3 4.4.0 installer
 export PATH="/Users/david/anaconda3/bin:$PATH"
@@ -20,7 +18,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -35,7 +33,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -57,7 +55,20 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew bundler gem npm osx rails ruby rvm z)
+
+plugins=(
+    git
+    brew 
+    bundler 
+    gem 
+    npm 
+    osx 
+    rails 
+    ruby 
+    rvm 
+    z
+)
+
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,3 +111,5 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status root_indicator
 POWERLEVEL9K_STATUS_VERBOSE=false
 
 eval $(thefuck --alias)
+ export NVM_DIR='/Users/david/.nvm'
+  . '/usr/local/opt/nvm/nvm.sh'
