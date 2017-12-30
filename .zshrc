@@ -7,6 +7,8 @@ export PATH="/Users/david/anaconda3/bin:$PATH"
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/david/.oh-my-zsh
 
+export TERM="xterm-256color"
+
 POWERLEVEL9K_MODE='awesome-patched'
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.

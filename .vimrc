@@ -10,3 +10,5 @@ syntax on
 set hidden
 set backspace=indent,eol,start
 set number
+" case insensitive search
+set ignorecase
